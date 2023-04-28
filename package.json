@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "vite build",
+    "// For increased dev speed we use the Vite dev server instead of `vercel dev`": "",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@vercel/edge": "^0.3.4",
+    "solid-js": "^1.7.3",
+    "vite": "^4.3.3",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-ssr": "^0.4.118"
+  },
+  "devDependencies": {
+    "@edge-runtime/types": "^2.0.8"
+  },
+  "name": "vercel-test"
+}
